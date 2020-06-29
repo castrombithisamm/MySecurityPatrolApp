@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "556702321901",
+    "firebase_url": "https://mysecuritypatrol.firebaseio.com",
+    "project_id": "mysecuritypatrol",
+    "storage_bucket": "mysecuritypatrol.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556702321901:android:0d8e4e6121100a952f10e4",
+        "android_client_info": {
+          "package_name": "com.example.mysecuritypatrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556702321901-hl9ovuqmk1m44q3h3vukjf9k8ttnlhu5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mysecuritypatrol",
+            "certificate_hash": "b6e88d61a6a6d4089ea1fab209a65d3b621fdaaa"
+          }
+        },
+        {
+          "client_id": "556702321901-drcucctovpevmlr1m6rga9benljd3mth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78yXPXSTBZ-cHAug0GiBlfWS55JIm2-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556702321901-drcucctovpevmlr1m6rga9benljd3mth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

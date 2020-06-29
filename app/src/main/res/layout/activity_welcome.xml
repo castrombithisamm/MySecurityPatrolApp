@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wel"
+    tools:context=".WelcomeActivity">
+
+    <Button
+        android:id="@+id/welcome_police_btn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="374dp"
+        android:background="@android:color/holo_green_light"
+        android:text="I am a Police Officer"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/welcome_student_btn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="450dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="I am a Student/Civilian"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+</RelativeLayout>

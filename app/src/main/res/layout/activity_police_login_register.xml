@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    tools:context=".PoliceLoginRegisterActivity">
+
+    <TextView
+        android:id="@+id/police_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="309dp"
+        android:text="Police Login"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email_police"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="246dp"
+        android:ems="10"
+        android:hint="Email..."
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password_police"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="183dp"
+        android:ems="10"
+        android:hint="Password..."
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/police_login_btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="118dp"
+        android:background="@color/colorAccent"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/police_register_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="88dp"
+        android:text="Don't have an Acount?"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/police_register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="30dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+</RelativeLayout>
